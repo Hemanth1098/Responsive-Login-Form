@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background2.jpg);
+    background-position: 30%;
+
+}
+.user{
+    align-items: center;
+    text-align: center;
+    padding-top: 15%;
+}
+.user h1{
+    color: rgb(175, 212, 12);
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.mail{
+padding: 10px 30px ;
+margin-bottom: 25px;
+border-radius: 20px;
+}
+.mail:hover{
+    padding: 12px 35px;
+}
+.pass:hover{
+    padding: 12px 35px;
+
+}
+.pass{
+    padding: 10px 30px ;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+.user p{
+font-style: italic;
+color: white;
+}
+.user span{
+    margin-right: 5px;
+}
+.sub{
+    margin-top: 25px;
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+.sub:hover{
+    background-color: black;
+    color: white;
+}
